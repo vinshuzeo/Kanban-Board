@@ -1,0 +1,88 @@
+/* Container for the whole kanban board */
+.kanban-container {
+  padding: 20px;
+}
+
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for each column */
+.kanban-column {
+  background-color: #f4f4f4;
+  padding: 10px;
+  width: 30%;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.kanban-column h2 {
+  text-align: center;
+  background-color: #dfe1e6;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Card styling */
+.kanban-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ticket-id {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.user-avatar img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.ticket-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.ticket-priority {
+  font-size: 14px;
+  color: #888;
+}
+
+.ticket-tag {
+  background-color: #e0e0e0;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  display: inline-block;
+}
+
+/* Controls for grouping and sorting */
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #0056b3;
+}
